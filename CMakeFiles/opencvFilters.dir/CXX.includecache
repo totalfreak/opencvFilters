@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/daniel/CLionProjects/opencvFilters/main.cpp
+/home/daniel/Documents/opencvFilters/main.cpp
 iostream
 -
 opencv2/opencv.hpp

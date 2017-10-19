@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/daniel/CLionProjects/opencvFilters/main.cpp" "/home/daniel/CLionProjects/opencvFilters/CMakeFiles/opencvFilters.dir/main.cpp.o"
+  "/home/daniel/Documents/opencvFilters/main.cpp" "/home/daniel/Documents/opencvFilters/CMakeFiles/opencvFilters.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

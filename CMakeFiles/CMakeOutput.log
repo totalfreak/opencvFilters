@@ -1,4 +1,4 @@
-The system is: Linux - 4.13.5-24.current - x86_64
+The system is: Linux - 4.13.7-27.current - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /usr/bin/cc 
 Build flags: -g2;-O3;-pipe;-fPIC;-Wformat;-Wformat-security;-fno-omit-frame-pointer;-fexceptions;-D_FORTIFY_SOURCE=2;-fstack-protector;--param;ssp-buffer-size=32;-fasynchronous-unwind-tables;-ftree-vectorize;-feliminate-unused-debug-types;-Wall;-Wno-error;-Wp,-D_REENTRANT
@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/daniel/CLionProjects/opencvFilters/CMakeFiles/3.8.2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/daniel/Documents/opencvFilters/CMakeFiles/3.8.2/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,33 +23,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/daniel/CLionProjects/opencvFilters/CMakeFiles/3.8.2/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/daniel/Documents/opencvFilters/CMakeFiles/3.8.2/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp
+Change Dir: /home/daniel/Documents/opencvFilters/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_fc577/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_fc577.dir/build.make CMakeFiles/cmTC_fc577.dir/build
-gmake[1]: Entering directory '/home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_fc577.dir/testCCompiler.c.o
-/usr/bin/cc   -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -o CMakeFiles/cmTC_fc577.dir/testCCompiler.c.o   -c /home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_fc577
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc577.dir/link.txt --verbose=1
-/usr/bin/cc -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_fc577.dir/testCCompiler.c.o  -o cmTC_fc577 
-gmake[1]: Leaving directory '/home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_4b86e/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_4b86e.dir/build.make CMakeFiles/cmTC_4b86e.dir/build
+gmake[1]: Entering directory '/home/daniel/Documents/opencvFilters/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4b86e.dir/testCCompiler.c.o
+/usr/bin/cc   -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -o CMakeFiles/cmTC_4b86e.dir/testCCompiler.c.o   -c /home/daniel/Documents/opencvFilters/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_4b86e
+/home/daniel/clion-2017.2.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b86e.dir/link.txt --verbose=1
+/usr/bin/cc -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_4b86e.dir/testCCompiler.c.o  -o cmTC_4b86e 
+gmake[1]: Leaving directory '/home/daniel/Documents/opencvFilters/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp
+Change Dir: /home/daniel/Documents/opencvFilters/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_d9472/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_d9472.dir/build.make CMakeFiles/cmTC_d9472.dir/build
-gmake[1]: Entering directory '/home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d9472.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc   -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -o CMakeFiles/cmTC_d9472.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.8/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_d9472
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9472.dir/link.txt --verbose=1
-/usr/bin/cc -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now -v CMakeFiles/cmTC_d9472.dir/CMakeCCompilerABI.c.o  -o cmTC_d9472 
+Run Build Command:"/usr/bin/gmake" "cmTC_f31f3/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_f31f3.dir/build.make CMakeFiles/cmTC_f31f3.dir/build
+gmake[1]: Entering directory '/home/daniel/Documents/opencvFilters/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f31f3.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -o CMakeFiles/cmTC_f31f3.dir/CMakeCCompilerABI.c.o   -c /home/daniel/clion-2017.2.3/bin/cmake/share/cmake-3.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_f31f3
+/home/daniel/clion-2017.2.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f31f3.dir/link.txt --verbose=1
+/usr/bin/cc -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now -v CMakeFiles/cmTC_f31f3.dir/CMakeCCompilerABI.c.o  -o cmTC_f31f3 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib64/gcc/x86_64-solus-linux/6.4.0/lto-wrapper
@@ -59,24 +59,24 @@ Thread model: posix
 gcc version 6.4.0 (Solus) 
 COMPILER_PATH=/usr/lib64/gcc/x86_64-solus-linux/6.4.0/:/usr/lib64/gcc/x86_64-solus-linux/6.4.0/:/usr/lib64/gcc/x86_64-solus-linux/:/usr/lib64/gcc/x86_64-solus-linux/6.4.0/:/usr/lib64/gcc/x86_64-solus-linux/
 LIBRARY_PATH=/usr/lib64/gcc/x86_64-solus-linux/6.4.0/:/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-g2' '-O3' '-pipe' '-fPIC' '-Wformat=1' '-Wformat-security' '-fno-omit-frame-pointer' '-fexceptions' '-D' '_FORTIFY_SOURCE=2' '-fstack-protector' '--param' 'ssp-buffer-size=32' '-fasynchronous-unwind-tables' '-ftree-vectorize' '-feliminate-unused-debug-types' '-Wall' '-Wno-error' '-v' '-o' 'cmTC_d9472' '-mtune=generic' '-march=x86-64'
- /usr/lib64/gcc/x86_64-solus-linux/6.4.0/collect2 -plugin /usr/lib64/gcc/x86_64-solus-linux/6.4.0/liblto_plugin.so -plugin-opt=/usr/lib64/gcc/x86_64-solus-linux/6.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc1aO2ym.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /usr/lib64/ld-linux-x86-64.so.2 -o cmTC_d9472 /usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-solus-linux/6.4.0/crtbegin.o -L/usr/lib64/gcc/x86_64-solus-linux/6.4.0 -L/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../.. -z relro -z now CMakeFiles/cmTC_d9472.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib64/gcc/x86_64-solus-linux/6.4.0/crtend.o /usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crtn.o
-COLLECT_GCC_OPTIONS='-g2' '-O3' '-pipe' '-fPIC' '-Wformat=1' '-Wformat-security' '-fno-omit-frame-pointer' '-fexceptions' '-D' '_FORTIFY_SOURCE=2' '-fstack-protector' '--param' 'ssp-buffer-size=32' '-fasynchronous-unwind-tables' '-ftree-vectorize' '-feliminate-unused-debug-types' '-Wall' '-Wno-error' '-v' '-o' 'cmTC_d9472' '-mtune=generic' '-march=x86-64'
-gmake[1]: Leaving directory '/home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-g2' '-O3' '-pipe' '-fPIC' '-Wformat=1' '-Wformat-security' '-fno-omit-frame-pointer' '-fexceptions' '-D' '_FORTIFY_SOURCE=2' '-fstack-protector' '--param' 'ssp-buffer-size=32' '-fasynchronous-unwind-tables' '-ftree-vectorize' '-feliminate-unused-debug-types' '-Wall' '-Wno-error' '-v' '-o' 'cmTC_f31f3' '-mtune=generic' '-march=x86-64'
+ /usr/lib64/gcc/x86_64-solus-linux/6.4.0/collect2 -plugin /usr/lib64/gcc/x86_64-solus-linux/6.4.0/liblto_plugin.so -plugin-opt=/usr/lib64/gcc/x86_64-solus-linux/6.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccPi9M6w.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /usr/lib64/ld-linux-x86-64.so.2 -o cmTC_f31f3 /usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-solus-linux/6.4.0/crtbegin.o -L/usr/lib64/gcc/x86_64-solus-linux/6.4.0 -L/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../.. -z relro -z now CMakeFiles/cmTC_f31f3.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib64/gcc/x86_64-solus-linux/6.4.0/crtend.o /usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-g2' '-O3' '-pipe' '-fPIC' '-Wformat=1' '-Wformat-security' '-fno-omit-frame-pointer' '-fexceptions' '-D' '_FORTIFY_SOURCE=2' '-fstack-protector' '--param' 'ssp-buffer-size=32' '-fasynchronous-unwind-tables' '-ftree-vectorize' '-feliminate-unused-debug-types' '-Wall' '-Wno-error' '-v' '-o' 'cmTC_f31f3' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory '/home/daniel/Documents/opencvFilters/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/daniel/Documents/opencvFilters/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_d9472/fast"]
-  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_d9472.dir/build.make CMakeFiles/cmTC_d9472.dir/build]
-  ignore line: [gmake[1]: Entering directory '/home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_d9472.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc   -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -o CMakeFiles/cmTC_d9472.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.8/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_d9472]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9472.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now -v CMakeFiles/cmTC_d9472.dir/CMakeCCompilerABI.c.o  -o cmTC_d9472 ]
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_f31f3/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_f31f3.dir/build.make CMakeFiles/cmTC_f31f3.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/daniel/Documents/opencvFilters/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_f31f3.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -o CMakeFiles/cmTC_f31f3.dir/CMakeCCompilerABI.c.o   -c /home/daniel/clion-2017.2.3/bin/cmake/share/cmake-3.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_f31f3]
+  ignore line: [/home/daniel/clion-2017.2.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f31f3.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now -v CMakeFiles/cmTC_f31f3.dir/CMakeCCompilerABI.c.o  -o cmTC_f31f3 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib64/gcc/x86_64-solus-linux/6.4.0/lto-wrapper]
@@ -86,13 +86,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 6.4.0 (Solus) ]
   ignore line: [COMPILER_PATH=/usr/lib64/gcc/x86_64-solus-linux/6.4.0/:/usr/lib64/gcc/x86_64-solus-linux/6.4.0/:/usr/lib64/gcc/x86_64-solus-linux/:/usr/lib64/gcc/x86_64-solus-linux/6.4.0/:/usr/lib64/gcc/x86_64-solus-linux/]
   ignore line: [LIBRARY_PATH=/usr/lib64/gcc/x86_64-solus-linux/6.4.0/:/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-g2' '-O3' '-pipe' '-fPIC' '-Wformat=1' '-Wformat-security' '-fno-omit-frame-pointer' '-fexceptions' '-D' '_FORTIFY_SOURCE=2' '-fstack-protector' '--param' 'ssp-buffer-size=32' '-fasynchronous-unwind-tables' '-ftree-vectorize' '-feliminate-unused-debug-types' '-Wall' '-Wno-error' '-v' '-o' 'cmTC_d9472' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib64/gcc/x86_64-solus-linux/6.4.0/collect2 -plugin /usr/lib64/gcc/x86_64-solus-linux/6.4.0/liblto_plugin.so -plugin-opt=/usr/lib64/gcc/x86_64-solus-linux/6.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc1aO2ym.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /usr/lib64/ld-linux-x86-64.so.2 -o cmTC_d9472 /usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-solus-linux/6.4.0/crtbegin.o -L/usr/lib64/gcc/x86_64-solus-linux/6.4.0 -L/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../.. -z relro -z now CMakeFiles/cmTC_d9472.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib64/gcc/x86_64-solus-linux/6.4.0/crtend.o /usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-g2' '-O3' '-pipe' '-fPIC' '-Wformat=1' '-Wformat-security' '-fno-omit-frame-pointer' '-fexceptions' '-D' '_FORTIFY_SOURCE=2' '-fstack-protector' '--param' 'ssp-buffer-size=32' '-fasynchronous-unwind-tables' '-ftree-vectorize' '-feliminate-unused-debug-types' '-Wall' '-Wno-error' '-v' '-o' 'cmTC_f31f3' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib64/gcc/x86_64-solus-linux/6.4.0/collect2 -plugin /usr/lib64/gcc/x86_64-solus-linux/6.4.0/liblto_plugin.so -plugin-opt=/usr/lib64/gcc/x86_64-solus-linux/6.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccPi9M6w.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /usr/lib64/ld-linux-x86-64.so.2 -o cmTC_f31f3 /usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-solus-linux/6.4.0/crtbegin.o -L/usr/lib64/gcc/x86_64-solus-linux/6.4.0 -L/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../.. -z relro -z now CMakeFiles/cmTC_f31f3.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib64/gcc/x86_64-solus-linux/6.4.0/crtend.o /usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crtn.o]
     arg [/usr/lib64/gcc/x86_64-solus-linux/6.4.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib64/gcc/x86_64-solus-linux/6.4.0/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib64/gcc/x86_64-solus-linux/6.4.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc1aO2ym.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccPi9M6w.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -105,7 +105,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/usr/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_d9472] ==> ignore
+    arg [cmTC_f31f3] ==> ignore
     arg [/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crt1.o] ==> ignore
     arg [/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crti.o] ==> ignore
     arg [/usr/lib64/gcc/x86_64-solus-linux/6.4.0/crtbegin.o] ==> ignore
@@ -116,7 +116,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../..] ==> dir [/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../..]
     arg [-zrelro] ==> ignore
     arg [-znow] ==> ignore
-    arg [CMakeFiles/cmTC_d9472.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_f31f3.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -145,17 +145,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp
+Change Dir: /home/daniel/Documents/opencvFilters/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_6f5a8/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_6f5a8.dir/build.make CMakeFiles/cmTC_6f5a8.dir/build
-gmake[1]: Entering directory '/home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6f5a8.dir/feature_tests.c.o
-/usr/bin/cc   -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -std=c11 -o CMakeFiles/cmTC_6f5a8.dir/feature_tests.c.o   -c /home/daniel/CLionProjects/opencvFilters/CMakeFiles/feature_tests.c
-Linking C executable cmTC_6f5a8
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f5a8.dir/link.txt --verbose=1
-/usr/bin/cc -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_6f5a8.dir/feature_tests.c.o  -o cmTC_6f5a8 
-gmake[1]: Leaving directory '/home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_7cdd8/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_7cdd8.dir/build.make CMakeFiles/cmTC_7cdd8.dir/build
+gmake[1]: Entering directory '/home/daniel/Documents/opencvFilters/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7cdd8.dir/feature_tests.c.o
+/usr/bin/cc   -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -std=c11 -o CMakeFiles/cmTC_7cdd8.dir/feature_tests.c.o   -c /home/daniel/Documents/opencvFilters/CMakeFiles/feature_tests.c
+Linking C executable cmTC_7cdd8
+/home/daniel/clion-2017.2.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7cdd8.dir/link.txt --verbose=1
+/usr/bin/cc -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_7cdd8.dir/feature_tests.c.o  -o cmTC_7cdd8 
+gmake[1]: Leaving directory '/home/daniel/Documents/opencvFilters/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -165,17 +165,17 @@ gmake[1]: Leaving directory '/home/daniel/CLionProjects/opencvFilters/CMakeFiles
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp
+Change Dir: /home/daniel/Documents/opencvFilters/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_a103a/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_a103a.dir/build.make CMakeFiles/cmTC_a103a.dir/build
-gmake[1]: Entering directory '/home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a103a.dir/feature_tests.c.o
-/usr/bin/cc   -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -std=c99 -o CMakeFiles/cmTC_a103a.dir/feature_tests.c.o   -c /home/daniel/CLionProjects/opencvFilters/CMakeFiles/feature_tests.c
-Linking C executable cmTC_a103a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a103a.dir/link.txt --verbose=1
-/usr/bin/cc -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_a103a.dir/feature_tests.c.o  -o cmTC_a103a 
-gmake[1]: Leaving directory '/home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_04a70/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_04a70.dir/build.make CMakeFiles/cmTC_04a70.dir/build
+gmake[1]: Entering directory '/home/daniel/Documents/opencvFilters/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_04a70.dir/feature_tests.c.o
+/usr/bin/cc   -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -std=c99 -o CMakeFiles/cmTC_04a70.dir/feature_tests.c.o   -c /home/daniel/Documents/opencvFilters/CMakeFiles/feature_tests.c
+Linking C executable cmTC_04a70
+/home/daniel/clion-2017.2.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04a70.dir/link.txt --verbose=1
+/usr/bin/cc -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_04a70.dir/feature_tests.c.o  -o cmTC_04a70 
+gmake[1]: Leaving directory '/home/daniel/Documents/opencvFilters/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -185,17 +185,17 @@ gmake[1]: Leaving directory '/home/daniel/CLionProjects/opencvFilters/CMakeFiles
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp
+Change Dir: /home/daniel/Documents/opencvFilters/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_26cce/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_26cce.dir/build.make CMakeFiles/cmTC_26cce.dir/build
-gmake[1]: Entering directory '/home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_26cce.dir/feature_tests.c.o
-/usr/bin/cc   -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -std=c90 -o CMakeFiles/cmTC_26cce.dir/feature_tests.c.o   -c /home/daniel/CLionProjects/opencvFilters/CMakeFiles/feature_tests.c
-Linking C executable cmTC_26cce
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26cce.dir/link.txt --verbose=1
-/usr/bin/cc -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_26cce.dir/feature_tests.c.o  -o cmTC_26cce 
-gmake[1]: Leaving directory '/home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_1cc8c/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_1cc8c.dir/build.make CMakeFiles/cmTC_1cc8c.dir/build
+gmake[1]: Entering directory '/home/daniel/Documents/opencvFilters/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1cc8c.dir/feature_tests.c.o
+/usr/bin/cc   -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -std=c90 -o CMakeFiles/cmTC_1cc8c.dir/feature_tests.c.o   -c /home/daniel/Documents/opencvFilters/CMakeFiles/feature_tests.c
+Linking C executable cmTC_1cc8c
+/home/daniel/clion-2017.2.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1cc8c.dir/link.txt --verbose=1
+/usr/bin/cc -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_1cc8c.dir/feature_tests.c.o  -o cmTC_1cc8c 
+gmake[1]: Leaving directory '/home/daniel/Documents/opencvFilters/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -203,30 +203,30 @@ gmake[1]: Leaving directory '/home/daniel/CLionProjects/opencvFilters/CMakeFiles
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp
+Change Dir: /home/daniel/Documents/opencvFilters/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_120e7/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_120e7.dir/build.make CMakeFiles/cmTC_120e7.dir/build
-gmake[1]: Entering directory '/home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_120e7.dir/testCXXCompiler.cxx.o
-/usr/bin/c++    -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -o CMakeFiles/cmTC_120e7.dir/testCXXCompiler.cxx.o -c /home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_120e7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_120e7.dir/link.txt --verbose=1
-/usr/bin/c++  -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_120e7.dir/testCXXCompiler.cxx.o  -o cmTC_120e7 
-gmake[1]: Leaving directory '/home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_a7a13/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_a7a13.dir/build.make CMakeFiles/cmTC_a7a13.dir/build
+gmake[1]: Entering directory '/home/daniel/Documents/opencvFilters/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a7a13.dir/testCXXCompiler.cxx.o
+/usr/bin/c++    -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -o CMakeFiles/cmTC_a7a13.dir/testCXXCompiler.cxx.o -c /home/daniel/Documents/opencvFilters/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_a7a13
+/home/daniel/clion-2017.2.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7a13.dir/link.txt --verbose=1
+/usr/bin/c++  -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_a7a13.dir/testCXXCompiler.cxx.o  -o cmTC_a7a13 
+gmake[1]: Leaving directory '/home/daniel/Documents/opencvFilters/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp
+Change Dir: /home/daniel/Documents/opencvFilters/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_2b1dd/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_2b1dd.dir/build.make CMakeFiles/cmTC_2b1dd.dir/build
-gmake[1]: Entering directory '/home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_2b1dd.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++    -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -o CMakeFiles/cmTC_2b1dd.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.8/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_2b1dd
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b1dd.dir/link.txt --verbose=1
-/usr/bin/c++  -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now -v CMakeFiles/cmTC_2b1dd.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_2b1dd 
+Run Build Command:"/usr/bin/gmake" "cmTC_88176/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_88176.dir/build.make CMakeFiles/cmTC_88176.dir/build
+gmake[1]: Entering directory '/home/daniel/Documents/opencvFilters/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_88176.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++    -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -o CMakeFiles/cmTC_88176.dir/CMakeCXXCompilerABI.cpp.o -c /home/daniel/clion-2017.2.3/bin/cmake/share/cmake-3.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_88176
+/home/daniel/clion-2017.2.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88176.dir/link.txt --verbose=1
+/usr/bin/c++  -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now -v CMakeFiles/cmTC_88176.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_88176 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib64/gcc/x86_64-solus-linux/6.4.0/lto-wrapper
@@ -236,24 +236,24 @@ Thread model: posix
 gcc version 6.4.0 (Solus) 
 COMPILER_PATH=/usr/lib64/gcc/x86_64-solus-linux/6.4.0/:/usr/lib64/gcc/x86_64-solus-linux/6.4.0/:/usr/lib64/gcc/x86_64-solus-linux/:/usr/lib64/gcc/x86_64-solus-linux/6.4.0/:/usr/lib64/gcc/x86_64-solus-linux/
 LIBRARY_PATH=/usr/lib64/gcc/x86_64-solus-linux/6.4.0/:/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-g2' '-O3' '-pipe' '-fPIC' '-fno-omit-frame-pointer' '-fexceptions' '-D' '_FORTIFY_SOURCE=2' '-fstack-protector' '--param' 'ssp-buffer-size=32' '-fasynchronous-unwind-tables' '-ftree-vectorize' '-feliminate-unused-debug-types' '-Wall' '-Wno-error' '-v' '-o' 'cmTC_2b1dd' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib64/gcc/x86_64-solus-linux/6.4.0/collect2 -plugin /usr/lib64/gcc/x86_64-solus-linux/6.4.0/liblto_plugin.so -plugin-opt=/usr/lib64/gcc/x86_64-solus-linux/6.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccCZlKiv.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /usr/lib64/ld-linux-x86-64.so.2 -o cmTC_2b1dd /usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-solus-linux/6.4.0/crtbegin.o -L/usr/lib64/gcc/x86_64-solus-linux/6.4.0 -L/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../.. -z relro -z now CMakeFiles/cmTC_2b1dd.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib64/gcc/x86_64-solus-linux/6.4.0/crtend.o /usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crtn.o
-COLLECT_GCC_OPTIONS='-g2' '-O3' '-pipe' '-fPIC' '-fno-omit-frame-pointer' '-fexceptions' '-D' '_FORTIFY_SOURCE=2' '-fstack-protector' '--param' 'ssp-buffer-size=32' '-fasynchronous-unwind-tables' '-ftree-vectorize' '-feliminate-unused-debug-types' '-Wall' '-Wno-error' '-v' '-o' 'cmTC_2b1dd' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-gmake[1]: Leaving directory '/home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-g2' '-O3' '-pipe' '-fPIC' '-fno-omit-frame-pointer' '-fexceptions' '-D' '_FORTIFY_SOURCE=2' '-fstack-protector' '--param' 'ssp-buffer-size=32' '-fasynchronous-unwind-tables' '-ftree-vectorize' '-feliminate-unused-debug-types' '-Wall' '-Wno-error' '-v' '-o' 'cmTC_88176' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib64/gcc/x86_64-solus-linux/6.4.0/collect2 -plugin /usr/lib64/gcc/x86_64-solus-linux/6.4.0/liblto_plugin.so -plugin-opt=/usr/lib64/gcc/x86_64-solus-linux/6.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cchFqan0.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /usr/lib64/ld-linux-x86-64.so.2 -o cmTC_88176 /usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-solus-linux/6.4.0/crtbegin.o -L/usr/lib64/gcc/x86_64-solus-linux/6.4.0 -L/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../.. -z relro -z now CMakeFiles/cmTC_88176.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib64/gcc/x86_64-solus-linux/6.4.0/crtend.o /usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-g2' '-O3' '-pipe' '-fPIC' '-fno-omit-frame-pointer' '-fexceptions' '-D' '_FORTIFY_SOURCE=2' '-fstack-protector' '--param' 'ssp-buffer-size=32' '-fasynchronous-unwind-tables' '-ftree-vectorize' '-feliminate-unused-debug-types' '-Wall' '-Wno-error' '-v' '-o' 'cmTC_88176' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory '/home/daniel/Documents/opencvFilters/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/daniel/Documents/opencvFilters/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_2b1dd/fast"]
-  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_2b1dd.dir/build.make CMakeFiles/cmTC_2b1dd.dir/build]
-  ignore line: [gmake[1]: Entering directory '/home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_2b1dd.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++    -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -o CMakeFiles/cmTC_2b1dd.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.8/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_2b1dd]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b1dd.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++  -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now -v CMakeFiles/cmTC_2b1dd.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_2b1dd ]
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_88176/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_88176.dir/build.make CMakeFiles/cmTC_88176.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/daniel/Documents/opencvFilters/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_88176.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++    -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -o CMakeFiles/cmTC_88176.dir/CMakeCXXCompilerABI.cpp.o -c /home/daniel/clion-2017.2.3/bin/cmake/share/cmake-3.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_88176]
+  ignore line: [/home/daniel/clion-2017.2.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88176.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++  -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now -v CMakeFiles/cmTC_88176.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_88176 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib64/gcc/x86_64-solus-linux/6.4.0/lto-wrapper]
@@ -263,13 +263,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 6.4.0 (Solus) ]
   ignore line: [COMPILER_PATH=/usr/lib64/gcc/x86_64-solus-linux/6.4.0/:/usr/lib64/gcc/x86_64-solus-linux/6.4.0/:/usr/lib64/gcc/x86_64-solus-linux/:/usr/lib64/gcc/x86_64-solus-linux/6.4.0/:/usr/lib64/gcc/x86_64-solus-linux/]
   ignore line: [LIBRARY_PATH=/usr/lib64/gcc/x86_64-solus-linux/6.4.0/:/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-g2' '-O3' '-pipe' '-fPIC' '-fno-omit-frame-pointer' '-fexceptions' '-D' '_FORTIFY_SOURCE=2' '-fstack-protector' '--param' 'ssp-buffer-size=32' '-fasynchronous-unwind-tables' '-ftree-vectorize' '-feliminate-unused-debug-types' '-Wall' '-Wno-error' '-v' '-o' 'cmTC_2b1dd' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib64/gcc/x86_64-solus-linux/6.4.0/collect2 -plugin /usr/lib64/gcc/x86_64-solus-linux/6.4.0/liblto_plugin.so -plugin-opt=/usr/lib64/gcc/x86_64-solus-linux/6.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccCZlKiv.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /usr/lib64/ld-linux-x86-64.so.2 -o cmTC_2b1dd /usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-solus-linux/6.4.0/crtbegin.o -L/usr/lib64/gcc/x86_64-solus-linux/6.4.0 -L/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../.. -z relro -z now CMakeFiles/cmTC_2b1dd.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib64/gcc/x86_64-solus-linux/6.4.0/crtend.o /usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-g2' '-O3' '-pipe' '-fPIC' '-fno-omit-frame-pointer' '-fexceptions' '-D' '_FORTIFY_SOURCE=2' '-fstack-protector' '--param' 'ssp-buffer-size=32' '-fasynchronous-unwind-tables' '-ftree-vectorize' '-feliminate-unused-debug-types' '-Wall' '-Wno-error' '-v' '-o' 'cmTC_88176' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib64/gcc/x86_64-solus-linux/6.4.0/collect2 -plugin /usr/lib64/gcc/x86_64-solus-linux/6.4.0/liblto_plugin.so -plugin-opt=/usr/lib64/gcc/x86_64-solus-linux/6.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cchFqan0.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /usr/lib64/ld-linux-x86-64.so.2 -o cmTC_88176 /usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-solus-linux/6.4.0/crtbegin.o -L/usr/lib64/gcc/x86_64-solus-linux/6.4.0 -L/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../.. -z relro -z now CMakeFiles/cmTC_88176.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib64/gcc/x86_64-solus-linux/6.4.0/crtend.o /usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crtn.o]
     arg [/usr/lib64/gcc/x86_64-solus-linux/6.4.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib64/gcc/x86_64-solus-linux/6.4.0/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib64/gcc/x86_64-solus-linux/6.4.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccCZlKiv.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cchFqan0.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -282,7 +282,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/usr/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_2b1dd] ==> ignore
+    arg [cmTC_88176] ==> ignore
     arg [/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crt1.o] ==> ignore
     arg [/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crti.o] ==> ignore
     arg [/usr/lib64/gcc/x86_64-solus-linux/6.4.0/crtbegin.o] ==> ignore
@@ -293,7 +293,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../..] ==> dir [/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../..]
     arg [-zrelro] ==> ignore
     arg [-znow] ==> ignore
-    arg [CMakeFiles/cmTC_2b1dd.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_88176.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -320,17 +320,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp
+Change Dir: /home/daniel/Documents/opencvFilters/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_19ef7/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_19ef7.dir/build.make CMakeFiles/cmTC_19ef7.dir/build
-gmake[1]: Entering directory '/home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_19ef7.dir/feature_tests.cxx.o
-/usr/bin/c++    -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -std=c++1z -o CMakeFiles/cmTC_19ef7.dir/feature_tests.cxx.o -c /home/daniel/CLionProjects/opencvFilters/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_19ef7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19ef7.dir/link.txt --verbose=1
-/usr/bin/c++  -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_19ef7.dir/feature_tests.cxx.o  -o cmTC_19ef7 
-gmake[1]: Leaving directory '/home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_0d9a4/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_0d9a4.dir/build.make CMakeFiles/cmTC_0d9a4.dir/build
+gmake[1]: Entering directory '/home/daniel/Documents/opencvFilters/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0d9a4.dir/feature_tests.cxx.o
+/usr/bin/c++    -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -std=c++1z -o CMakeFiles/cmTC_0d9a4.dir/feature_tests.cxx.o -c /home/daniel/Documents/opencvFilters/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_0d9a4
+/home/daniel/clion-2017.2.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d9a4.dir/link.txt --verbose=1
+/usr/bin/c++  -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_0d9a4.dir/feature_tests.cxx.o  -o cmTC_0d9a4 
+gmake[1]: Leaving directory '/home/daniel/Documents/opencvFilters/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -393,482 +393,17 @@ gmake[1]: Leaving directory '/home/daniel/CLionProjects/opencvFilters/CMakeFiles
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp
+Change Dir: /home/daniel/Documents/opencvFilters/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_9eb13/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_9eb13.dir/build.make CMakeFiles/cmTC_9eb13.dir/build
-gmake[1]: Entering directory '/home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_9eb13.dir/feature_tests.cxx.o
-/usr/bin/c++    -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -std=c++14 -o CMakeFiles/cmTC_9eb13.dir/feature_tests.cxx.o -c /home/daniel/CLionProjects/opencvFilters/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_9eb13
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9eb13.dir/link.txt --verbose=1
-/usr/bin/c++  -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_9eb13.dir/feature_tests.cxx.o  -o cmTC_9eb13 
-gmake[1]: Leaving directory '/home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp'
-
-
-    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
-    Feature record: CXX_FEATURE:1cxx_alias_templates
-    Feature record: CXX_FEATURE:1cxx_alignas
-    Feature record: CXX_FEATURE:1cxx_alignof
-    Feature record: CXX_FEATURE:1cxx_attributes
-    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
-    Feature record: CXX_FEATURE:1cxx_auto_type
-    Feature record: CXX_FEATURE:1cxx_binary_literals
-    Feature record: CXX_FEATURE:1cxx_constexpr
-    Feature record: CXX_FEATURE:1cxx_contextual_conversions
-    Feature record: CXX_FEATURE:1cxx_decltype
-    Feature record: CXX_FEATURE:1cxx_decltype_auto
-    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
-    Feature record: CXX_FEATURE:1cxx_default_function_template_args
-    Feature record: CXX_FEATURE:1cxx_defaulted_functions
-    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
-    Feature record: CXX_FEATURE:1cxx_delegating_constructors
-    Feature record: CXX_FEATURE:1cxx_deleted_functions
-    Feature record: CXX_FEATURE:1cxx_digit_separators
-    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
-    Feature record: CXX_FEATURE:1cxx_explicit_conversions
-    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
-    Feature record: CXX_FEATURE:1cxx_extern_templates
-    Feature record: CXX_FEATURE:1cxx_final
-    Feature record: CXX_FEATURE:1cxx_func_identifier
-    Feature record: CXX_FEATURE:1cxx_generalized_initializers
-    Feature record: CXX_FEATURE:1cxx_generic_lambdas
-    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
-    Feature record: CXX_FEATURE:1cxx_inline_namespaces
-    Feature record: CXX_FEATURE:1cxx_lambdas
-    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
-    Feature record: CXX_FEATURE:1cxx_local_type_template_args
-    Feature record: CXX_FEATURE:1cxx_long_long_type
-    Feature record: CXX_FEATURE:1cxx_noexcept
-    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
-    Feature record: CXX_FEATURE:1cxx_nullptr
-    Feature record: CXX_FEATURE:1cxx_override
-    Feature record: CXX_FEATURE:1cxx_range_for
-    Feature record: CXX_FEATURE:1cxx_raw_string_literals
-    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
-    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
-    Feature record: CXX_FEATURE:1cxx_return_type_deduction
-    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
-    Feature record: CXX_FEATURE:1cxx_rvalue_references
-    Feature record: CXX_FEATURE:1cxx_sizeof_member
-    Feature record: CXX_FEATURE:1cxx_static_assert
-    Feature record: CXX_FEATURE:1cxx_strong_enums
-    Feature record: CXX_FEATURE:1cxx_template_template_parameters
-    Feature record: CXX_FEATURE:1cxx_thread_local
-    Feature record: CXX_FEATURE:1cxx_trailing_return_types
-    Feature record: CXX_FEATURE:1cxx_unicode_literals
-    Feature record: CXX_FEATURE:1cxx_uniform_initialization
-    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
-    Feature record: CXX_FEATURE:1cxx_user_literals
-    Feature record: CXX_FEATURE:1cxx_variable_templates
-    Feature record: CXX_FEATURE:1cxx_variadic_macros
-    Feature record: CXX_FEATURE:1cxx_variadic_templates
-The system is: Linux - 4.13.5-24.current - x86_64
-Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: /usr/bin/cc 
-Build flags: -g2;-O3;-pipe;-fPIC;-Wformat;-Wformat-security;-fno-omit-frame-pointer;-fexceptions;-D_FORTIFY_SOURCE=2;-fstack-protector;--param;ssp-buffer-size=32;-fasynchronous-unwind-tables;-ftree-vectorize;-feliminate-unused-debug-types;-Wall;-Wno-error;-Wp,-D_REENTRANT
-Id flags:  
-
-The output was:
-0
-
-
-Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
-
-The C compiler identification is GNU, found in "/home/daniel/CLionProjects/opencvFilters/CMakeFiles/3.8.2/CompilerIdC/a.out"
-
-Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: /usr/bin/c++ 
-Build flags: -g2;-O3;-pipe;-fPIC;-fno-omit-frame-pointer;-fexceptions;-D_FORTIFY_SOURCE=2;-fstack-protector;--param;ssp-buffer-size=32;-fasynchronous-unwind-tables;-ftree-vectorize;-feliminate-unused-debug-types;-Wall;-Wno-error;-Wp,-D_REENTRANT
-Id flags:  
-
-The output was:
-0
-
-
-Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
-
-The CXX compiler identification is GNU, found in "/home/daniel/CLionProjects/opencvFilters/CMakeFiles/3.8.2/CompilerIdCXX/a.out"
-
-Determining if the C compiler works passed with the following output:
-Change Dir: /home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/gmake" "cmTC_7711e/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_7711e.dir/build.make CMakeFiles/cmTC_7711e.dir/build
-gmake[1]: Entering directory '/home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_7711e.dir/testCCompiler.c.o
-/usr/bin/cc   -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -o CMakeFiles/cmTC_7711e.dir/testCCompiler.c.o   -c /home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_7711e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7711e.dir/link.txt --verbose=1
-/usr/bin/cc -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_7711e.dir/testCCompiler.c.o  -o cmTC_7711e 
-gmake[1]: Leaving directory '/home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp'
-
-
-Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/gmake" "cmTC_4e0d8/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_4e0d8.dir/build.make CMakeFiles/cmTC_4e0d8.dir/build
-gmake[1]: Entering directory '/home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_4e0d8.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc   -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -o CMakeFiles/cmTC_4e0d8.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.8/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_4e0d8
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e0d8.dir/link.txt --verbose=1
-/usr/bin/cc -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now -v CMakeFiles/cmTC_4e0d8.dir/CMakeCCompilerABI.c.o  -o cmTC_4e0d8 
-Using built-in specs.
-COLLECT_GCC=/usr/bin/cc
-COLLECT_LTO_WRAPPER=/usr/lib64/gcc/x86_64-solus-linux/6.4.0/lto-wrapper
-Target: x86_64-solus-linux
-Configured with: ../gcc-6.4.0/configure --prefix=/usr --with-pkgversion=Solus --libdir=/usr/lib64 --libexecdir=/usr/lib64 --with-system-zlib --enable-shared --enable-threads=posix --enable-gnu-indirect-function --enable-__cxa_atexit --enable-plugin --enable-gold --enable-ld=default --enable-clocale=gnu --enable-multilib --with-multilib-list=m32,m64 --enable-lto --with-bugurl=https://dev.solus-project.com/ --with-arch_32=i686 --enable-linker-build-id --build=x86_64-solus-linux --target=x86_64-solus-linux --enable-languages=c,c++,fortran
-Thread model: posix
-gcc version 6.4.0 (Solus) 
-COMPILER_PATH=/usr/lib64/gcc/x86_64-solus-linux/6.4.0/:/usr/lib64/gcc/x86_64-solus-linux/6.4.0/:/usr/lib64/gcc/x86_64-solus-linux/:/usr/lib64/gcc/x86_64-solus-linux/6.4.0/:/usr/lib64/gcc/x86_64-solus-linux/
-LIBRARY_PATH=/usr/lib64/gcc/x86_64-solus-linux/6.4.0/:/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-g2' '-O3' '-pipe' '-fPIC' '-Wformat=1' '-Wformat-security' '-fno-omit-frame-pointer' '-fexceptions' '-D' '_FORTIFY_SOURCE=2' '-fstack-protector' '--param' 'ssp-buffer-size=32' '-fasynchronous-unwind-tables' '-ftree-vectorize' '-feliminate-unused-debug-types' '-Wall' '-Wno-error' '-v' '-o' 'cmTC_4e0d8' '-mtune=generic' '-march=x86-64'
- /usr/lib64/gcc/x86_64-solus-linux/6.4.0/collect2 -plugin /usr/lib64/gcc/x86_64-solus-linux/6.4.0/liblto_plugin.so -plugin-opt=/usr/lib64/gcc/x86_64-solus-linux/6.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccT5NRP4.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /usr/lib64/ld-linux-x86-64.so.2 -o cmTC_4e0d8 /usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-solus-linux/6.4.0/crtbegin.o -L/usr/lib64/gcc/x86_64-solus-linux/6.4.0 -L/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../.. -z relro -z now CMakeFiles/cmTC_4e0d8.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib64/gcc/x86_64-solus-linux/6.4.0/crtend.o /usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crtn.o
-COLLECT_GCC_OPTIONS='-g2' '-O3' '-pipe' '-fPIC' '-Wformat=1' '-Wformat-security' '-fno-omit-frame-pointer' '-fexceptions' '-D' '_FORTIFY_SOURCE=2' '-fstack-protector' '--param' 'ssp-buffer-size=32' '-fasynchronous-unwind-tables' '-ftree-vectorize' '-feliminate-unused-debug-types' '-Wall' '-Wno-error' '-v' '-o' 'cmTC_4e0d8' '-mtune=generic' '-march=x86-64'
-gmake[1]: Leaving directory '/home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp'
-
-
-Parsed C implicit link information from above output:
-  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp]
-  ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_4e0d8/fast"]
-  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_4e0d8.dir/build.make CMakeFiles/cmTC_4e0d8.dir/build]
-  ignore line: [gmake[1]: Entering directory '/home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_4e0d8.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc   -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -o CMakeFiles/cmTC_4e0d8.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.8/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_4e0d8]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e0d8.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now -v CMakeFiles/cmTC_4e0d8.dir/CMakeCCompilerABI.c.o  -o cmTC_4e0d8 ]
-  ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=/usr/bin/cc]
-  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib64/gcc/x86_64-solus-linux/6.4.0/lto-wrapper]
-  ignore line: [Target: x86_64-solus-linux]
-  ignore line: [Configured with: ../gcc-6.4.0/configure --prefix=/usr --with-pkgversion=Solus --libdir=/usr/lib64 --libexecdir=/usr/lib64 --with-system-zlib --enable-shared --enable-threads=posix --enable-gnu-indirect-function --enable-__cxa_atexit --enable-plugin --enable-gold --enable-ld=default --enable-clocale=gnu --enable-multilib --with-multilib-list=m32,m64 --enable-lto --with-bugurl=https://dev.solus-project.com/ --with-arch_32=i686 --enable-linker-build-id --build=x86_64-solus-linux --target=x86_64-solus-linux --enable-languages=c,c++,fortran]
-  ignore line: [Thread model: posix]
-  ignore line: [gcc version 6.4.0 (Solus) ]
-  ignore line: [COMPILER_PATH=/usr/lib64/gcc/x86_64-solus-linux/6.4.0/:/usr/lib64/gcc/x86_64-solus-linux/6.4.0/:/usr/lib64/gcc/x86_64-solus-linux/:/usr/lib64/gcc/x86_64-solus-linux/6.4.0/:/usr/lib64/gcc/x86_64-solus-linux/]
-  ignore line: [LIBRARY_PATH=/usr/lib64/gcc/x86_64-solus-linux/6.4.0/:/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-g2' '-O3' '-pipe' '-fPIC' '-Wformat=1' '-Wformat-security' '-fno-omit-frame-pointer' '-fexceptions' '-D' '_FORTIFY_SOURCE=2' '-fstack-protector' '--param' 'ssp-buffer-size=32' '-fasynchronous-unwind-tables' '-ftree-vectorize' '-feliminate-unused-debug-types' '-Wall' '-Wno-error' '-v' '-o' 'cmTC_4e0d8' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib64/gcc/x86_64-solus-linux/6.4.0/collect2 -plugin /usr/lib64/gcc/x86_64-solus-linux/6.4.0/liblto_plugin.so -plugin-opt=/usr/lib64/gcc/x86_64-solus-linux/6.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccT5NRP4.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /usr/lib64/ld-linux-x86-64.so.2 -o cmTC_4e0d8 /usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-solus-linux/6.4.0/crtbegin.o -L/usr/lib64/gcc/x86_64-solus-linux/6.4.0 -L/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../.. -z relro -z now CMakeFiles/cmTC_4e0d8.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib64/gcc/x86_64-solus-linux/6.4.0/crtend.o /usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crtn.o]
-    arg [/usr/lib64/gcc/x86_64-solus-linux/6.4.0/collect2] ==> ignore
-    arg [-plugin] ==> ignore
-    arg [/usr/lib64/gcc/x86_64-solus-linux/6.4.0/liblto_plugin.so] ==> ignore
-    arg [-plugin-opt=/usr/lib64/gcc/x86_64-solus-linux/6.4.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccT5NRP4.res] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
-    arg [-plugin-opt=-pass-through=-lc] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
-    arg [--build-id] ==> ignore
-    arg [--eh-frame-hdr] ==> ignore
-    arg [-m] ==> ignore
-    arg [elf_x86_64] ==> ignore
-    arg [-dynamic-linker] ==> ignore
-    arg [/usr/lib64/ld-linux-x86-64.so.2] ==> ignore
-    arg [-o] ==> ignore
-    arg [cmTC_4e0d8] ==> ignore
-    arg [/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crt1.o] ==> ignore
-    arg [/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crti.o] ==> ignore
-    arg [/usr/lib64/gcc/x86_64-solus-linux/6.4.0/crtbegin.o] ==> ignore
-    arg [-L/usr/lib64/gcc/x86_64-solus-linux/6.4.0] ==> dir [/usr/lib64/gcc/x86_64-solus-linux/6.4.0]
-    arg [-L/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64] ==> dir [/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64]
-    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
-    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
-    arg [-L/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../..] ==> dir [/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../..]
-    arg [-zrelro] ==> ignore
-    arg [-znow] ==> ignore
-    arg [CMakeFiles/cmTC_4e0d8.dir/CMakeCCompilerABI.c.o] ==> ignore
-    arg [-lgcc] ==> lib [gcc]
-    arg [--as-needed] ==> ignore
-    arg [-lgcc_s] ==> lib [gcc_s]
-    arg [--no-as-needed] ==> ignore
-    arg [-lc] ==> lib [c]
-    arg [-lgcc] ==> lib [gcc]
-    arg [--as-needed] ==> ignore
-    arg [-lgcc_s] ==> lib [gcc_s]
-    arg [--no-as-needed] ==> ignore
-    arg [/usr/lib64/gcc/x86_64-solus-linux/6.4.0/crtend.o] ==> ignore
-    arg [/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crtn.o] ==> ignore
-  remove lib [gcc]
-  remove lib [gcc_s]
-  remove lib [gcc]
-  remove lib [gcc_s]
-  collapse library dir [/usr/lib64/gcc/x86_64-solus-linux/6.4.0] ==> [/usr/lib64/gcc/x86_64-solus-linux/6.4.0]
-  collapse library dir [/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64] ==> [/usr/lib64]
-  collapse library dir [/lib/../lib64] ==> [/lib64]
-  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
-  collapse library dir [/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../..] ==> [/usr/lib64]
-  implicit libs: [c]
-  implicit dirs: [/usr/lib64/gcc/x86_64-solus-linux/6.4.0;/usr/lib64;/lib64]
-  implicit fwks: []
-
-
-
-
-Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/gmake" "cmTC_5329a/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_5329a.dir/build.make CMakeFiles/cmTC_5329a.dir/build
-gmake[1]: Entering directory '/home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5329a.dir/feature_tests.c.o
-/usr/bin/cc   -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -std=c11 -o CMakeFiles/cmTC_5329a.dir/feature_tests.c.o   -c /home/daniel/CLionProjects/opencvFilters/CMakeFiles/feature_tests.c
-Linking C executable cmTC_5329a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5329a.dir/link.txt --verbose=1
-/usr/bin/cc -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_5329a.dir/feature_tests.c.o  -o cmTC_5329a 
-gmake[1]: Leaving directory '/home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp'
-
-
-    Feature record: C_FEATURE:1c_function_prototypes
-    Feature record: C_FEATURE:1c_restrict
-    Feature record: C_FEATURE:1c_static_assert
-    Feature record: C_FEATURE:1c_variadic_macros
-
-
-Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/gmake" "cmTC_23666/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_23666.dir/build.make CMakeFiles/cmTC_23666.dir/build
-gmake[1]: Entering directory '/home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_23666.dir/feature_tests.c.o
-/usr/bin/cc   -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -std=c99 -o CMakeFiles/cmTC_23666.dir/feature_tests.c.o   -c /home/daniel/CLionProjects/opencvFilters/CMakeFiles/feature_tests.c
-Linking C executable cmTC_23666
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23666.dir/link.txt --verbose=1
-/usr/bin/cc -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_23666.dir/feature_tests.c.o  -o cmTC_23666 
-gmake[1]: Leaving directory '/home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp'
-
-
-    Feature record: C_FEATURE:1c_function_prototypes
-    Feature record: C_FEATURE:1c_restrict
-    Feature record: C_FEATURE:0c_static_assert
-    Feature record: C_FEATURE:1c_variadic_macros
-
-
-Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/gmake" "cmTC_4be85/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_4be85.dir/build.make CMakeFiles/cmTC_4be85.dir/build
-gmake[1]: Entering directory '/home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_4be85.dir/feature_tests.c.o
-/usr/bin/cc   -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -std=c90 -o CMakeFiles/cmTC_4be85.dir/feature_tests.c.o   -c /home/daniel/CLionProjects/opencvFilters/CMakeFiles/feature_tests.c
-Linking C executable cmTC_4be85
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4be85.dir/link.txt --verbose=1
-/usr/bin/cc -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_4be85.dir/feature_tests.c.o  -o cmTC_4be85 
-gmake[1]: Leaving directory '/home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp'
-
-
-    Feature record: C_FEATURE:1c_function_prototypes
-    Feature record: C_FEATURE:0c_restrict
-    Feature record: C_FEATURE:0c_static_assert
-    Feature record: C_FEATURE:0c_variadic_macros
-Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/gmake" "cmTC_94639/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_94639.dir/build.make CMakeFiles/cmTC_94639.dir/build
-gmake[1]: Entering directory '/home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_94639.dir/testCXXCompiler.cxx.o
-/usr/bin/c++    -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -o CMakeFiles/cmTC_94639.dir/testCXXCompiler.cxx.o -c /home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_94639
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94639.dir/link.txt --verbose=1
-/usr/bin/c++  -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_94639.dir/testCXXCompiler.cxx.o  -o cmTC_94639 
-gmake[1]: Leaving directory '/home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp'
-
-
-Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/gmake" "cmTC_61533/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_61533.dir/build.make CMakeFiles/cmTC_61533.dir/build
-gmake[1]: Entering directory '/home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_61533.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++    -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -o CMakeFiles/cmTC_61533.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.8/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_61533
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61533.dir/link.txt --verbose=1
-/usr/bin/c++  -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now -v CMakeFiles/cmTC_61533.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_61533 
-Using built-in specs.
-COLLECT_GCC=/usr/bin/c++
-COLLECT_LTO_WRAPPER=/usr/lib64/gcc/x86_64-solus-linux/6.4.0/lto-wrapper
-Target: x86_64-solus-linux
-Configured with: ../gcc-6.4.0/configure --prefix=/usr --with-pkgversion=Solus --libdir=/usr/lib64 --libexecdir=/usr/lib64 --with-system-zlib --enable-shared --enable-threads=posix --enable-gnu-indirect-function --enable-__cxa_atexit --enable-plugin --enable-gold --enable-ld=default --enable-clocale=gnu --enable-multilib --with-multilib-list=m32,m64 --enable-lto --with-bugurl=https://dev.solus-project.com/ --with-arch_32=i686 --enable-linker-build-id --build=x86_64-solus-linux --target=x86_64-solus-linux --enable-languages=c,c++,fortran
-Thread model: posix
-gcc version 6.4.0 (Solus) 
-COMPILER_PATH=/usr/lib64/gcc/x86_64-solus-linux/6.4.0/:/usr/lib64/gcc/x86_64-solus-linux/6.4.0/:/usr/lib64/gcc/x86_64-solus-linux/:/usr/lib64/gcc/x86_64-solus-linux/6.4.0/:/usr/lib64/gcc/x86_64-solus-linux/
-LIBRARY_PATH=/usr/lib64/gcc/x86_64-solus-linux/6.4.0/:/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-g2' '-O3' '-pipe' '-fPIC' '-fno-omit-frame-pointer' '-fexceptions' '-D' '_FORTIFY_SOURCE=2' '-fstack-protector' '--param' 'ssp-buffer-size=32' '-fasynchronous-unwind-tables' '-ftree-vectorize' '-feliminate-unused-debug-types' '-Wall' '-Wno-error' '-v' '-o' 'cmTC_61533' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib64/gcc/x86_64-solus-linux/6.4.0/collect2 -plugin /usr/lib64/gcc/x86_64-solus-linux/6.4.0/liblto_plugin.so -plugin-opt=/usr/lib64/gcc/x86_64-solus-linux/6.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccDBotql.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /usr/lib64/ld-linux-x86-64.so.2 -o cmTC_61533 /usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-solus-linux/6.4.0/crtbegin.o -L/usr/lib64/gcc/x86_64-solus-linux/6.4.0 -L/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../.. -z relro -z now CMakeFiles/cmTC_61533.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib64/gcc/x86_64-solus-linux/6.4.0/crtend.o /usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crtn.o
-COLLECT_GCC_OPTIONS='-g2' '-O3' '-pipe' '-fPIC' '-fno-omit-frame-pointer' '-fexceptions' '-D' '_FORTIFY_SOURCE=2' '-fstack-protector' '--param' 'ssp-buffer-size=32' '-fasynchronous-unwind-tables' '-ftree-vectorize' '-feliminate-unused-debug-types' '-Wall' '-Wno-error' '-v' '-o' 'cmTC_61533' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-gmake[1]: Leaving directory '/home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp'
-
-
-Parsed CXX implicit link information from above output:
-  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp]
-  ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_61533/fast"]
-  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_61533.dir/build.make CMakeFiles/cmTC_61533.dir/build]
-  ignore line: [gmake[1]: Entering directory '/home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_61533.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++    -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -o CMakeFiles/cmTC_61533.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.8/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_61533]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61533.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++  -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now -v CMakeFiles/cmTC_61533.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_61533 ]
-  ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=/usr/bin/c++]
-  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib64/gcc/x86_64-solus-linux/6.4.0/lto-wrapper]
-  ignore line: [Target: x86_64-solus-linux]
-  ignore line: [Configured with: ../gcc-6.4.0/configure --prefix=/usr --with-pkgversion=Solus --libdir=/usr/lib64 --libexecdir=/usr/lib64 --with-system-zlib --enable-shared --enable-threads=posix --enable-gnu-indirect-function --enable-__cxa_atexit --enable-plugin --enable-gold --enable-ld=default --enable-clocale=gnu --enable-multilib --with-multilib-list=m32,m64 --enable-lto --with-bugurl=https://dev.solus-project.com/ --with-arch_32=i686 --enable-linker-build-id --build=x86_64-solus-linux --target=x86_64-solus-linux --enable-languages=c,c++,fortran]
-  ignore line: [Thread model: posix]
-  ignore line: [gcc version 6.4.0 (Solus) ]
-  ignore line: [COMPILER_PATH=/usr/lib64/gcc/x86_64-solus-linux/6.4.0/:/usr/lib64/gcc/x86_64-solus-linux/6.4.0/:/usr/lib64/gcc/x86_64-solus-linux/:/usr/lib64/gcc/x86_64-solus-linux/6.4.0/:/usr/lib64/gcc/x86_64-solus-linux/]
-  ignore line: [LIBRARY_PATH=/usr/lib64/gcc/x86_64-solus-linux/6.4.0/:/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-g2' '-O3' '-pipe' '-fPIC' '-fno-omit-frame-pointer' '-fexceptions' '-D' '_FORTIFY_SOURCE=2' '-fstack-protector' '--param' 'ssp-buffer-size=32' '-fasynchronous-unwind-tables' '-ftree-vectorize' '-feliminate-unused-debug-types' '-Wall' '-Wno-error' '-v' '-o' 'cmTC_61533' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib64/gcc/x86_64-solus-linux/6.4.0/collect2 -plugin /usr/lib64/gcc/x86_64-solus-linux/6.4.0/liblto_plugin.so -plugin-opt=/usr/lib64/gcc/x86_64-solus-linux/6.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccDBotql.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /usr/lib64/ld-linux-x86-64.so.2 -o cmTC_61533 /usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-solus-linux/6.4.0/crtbegin.o -L/usr/lib64/gcc/x86_64-solus-linux/6.4.0 -L/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../.. -z relro -z now CMakeFiles/cmTC_61533.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib64/gcc/x86_64-solus-linux/6.4.0/crtend.o /usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crtn.o]
-    arg [/usr/lib64/gcc/x86_64-solus-linux/6.4.0/collect2] ==> ignore
-    arg [-plugin] ==> ignore
-    arg [/usr/lib64/gcc/x86_64-solus-linux/6.4.0/liblto_plugin.so] ==> ignore
-    arg [-plugin-opt=/usr/lib64/gcc/x86_64-solus-linux/6.4.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccDBotql.res] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-    arg [-plugin-opt=-pass-through=-lc] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-    arg [--build-id] ==> ignore
-    arg [--eh-frame-hdr] ==> ignore
-    arg [-m] ==> ignore
-    arg [elf_x86_64] ==> ignore
-    arg [-dynamic-linker] ==> ignore
-    arg [/usr/lib64/ld-linux-x86-64.so.2] ==> ignore
-    arg [-o] ==> ignore
-    arg [cmTC_61533] ==> ignore
-    arg [/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crt1.o] ==> ignore
-    arg [/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crti.o] ==> ignore
-    arg [/usr/lib64/gcc/x86_64-solus-linux/6.4.0/crtbegin.o] ==> ignore
-    arg [-L/usr/lib64/gcc/x86_64-solus-linux/6.4.0] ==> dir [/usr/lib64/gcc/x86_64-solus-linux/6.4.0]
-    arg [-L/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64] ==> dir [/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64]
-    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
-    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
-    arg [-L/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../..] ==> dir [/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../..]
-    arg [-zrelro] ==> ignore
-    arg [-znow] ==> ignore
-    arg [CMakeFiles/cmTC_61533.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
-    arg [-lstdc++] ==> lib [stdc++]
-    arg [-lm] ==> lib [m]
-    arg [-lgcc_s] ==> lib [gcc_s]
-    arg [-lgcc] ==> lib [gcc]
-    arg [-lc] ==> lib [c]
-    arg [-lgcc_s] ==> lib [gcc_s]
-    arg [-lgcc] ==> lib [gcc]
-    arg [/usr/lib64/gcc/x86_64-solus-linux/6.4.0/crtend.o] ==> ignore
-    arg [/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crtn.o] ==> ignore
-  remove lib [gcc_s]
-  remove lib [gcc]
-  remove lib [gcc_s]
-  remove lib [gcc]
-  collapse library dir [/usr/lib64/gcc/x86_64-solus-linux/6.4.0] ==> [/usr/lib64/gcc/x86_64-solus-linux/6.4.0]
-  collapse library dir [/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64] ==> [/usr/lib64]
-  collapse library dir [/lib/../lib64] ==> [/lib64]
-  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
-  collapse library dir [/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../..] ==> [/usr/lib64]
-  implicit libs: [stdc++;m;c]
-  implicit dirs: [/usr/lib64/gcc/x86_64-solus-linux/6.4.0;/usr/lib64;/lib64]
-  implicit fwks: []
-
-
-
-
-Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/gmake" "cmTC_222d8/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_222d8.dir/build.make CMakeFiles/cmTC_222d8.dir/build
-gmake[1]: Entering directory '/home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_222d8.dir/feature_tests.cxx.o
-/usr/bin/c++    -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -std=c++1z -o CMakeFiles/cmTC_222d8.dir/feature_tests.cxx.o -c /home/daniel/CLionProjects/opencvFilters/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_222d8
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_222d8.dir/link.txt --verbose=1
-/usr/bin/c++  -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_222d8.dir/feature_tests.cxx.o  -o cmTC_222d8 
-gmake[1]: Leaving directory '/home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp'
-
-
-    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
-    Feature record: CXX_FEATURE:1cxx_alias_templates
-    Feature record: CXX_FEATURE:1cxx_alignas
-    Feature record: CXX_FEATURE:1cxx_alignof
-    Feature record: CXX_FEATURE:1cxx_attributes
-    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
-    Feature record: CXX_FEATURE:1cxx_auto_type
-    Feature record: CXX_FEATURE:1cxx_binary_literals
-    Feature record: CXX_FEATURE:1cxx_constexpr
-    Feature record: CXX_FEATURE:1cxx_contextual_conversions
-    Feature record: CXX_FEATURE:1cxx_decltype
-    Feature record: CXX_FEATURE:1cxx_decltype_auto
-    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
-    Feature record: CXX_FEATURE:1cxx_default_function_template_args
-    Feature record: CXX_FEATURE:1cxx_defaulted_functions
-    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
-    Feature record: CXX_FEATURE:1cxx_delegating_constructors
-    Feature record: CXX_FEATURE:1cxx_deleted_functions
-    Feature record: CXX_FEATURE:1cxx_digit_separators
-    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
-    Feature record: CXX_FEATURE:1cxx_explicit_conversions
-    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
-    Feature record: CXX_FEATURE:1cxx_extern_templates
-    Feature record: CXX_FEATURE:1cxx_final
-    Feature record: CXX_FEATURE:1cxx_func_identifier
-    Feature record: CXX_FEATURE:1cxx_generalized_initializers
-    Feature record: CXX_FEATURE:1cxx_generic_lambdas
-    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
-    Feature record: CXX_FEATURE:1cxx_inline_namespaces
-    Feature record: CXX_FEATURE:1cxx_lambdas
-    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
-    Feature record: CXX_FEATURE:1cxx_local_type_template_args
-    Feature record: CXX_FEATURE:1cxx_long_long_type
-    Feature record: CXX_FEATURE:1cxx_noexcept
-    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
-    Feature record: CXX_FEATURE:1cxx_nullptr
-    Feature record: CXX_FEATURE:1cxx_override
-    Feature record: CXX_FEATURE:1cxx_range_for
-    Feature record: CXX_FEATURE:1cxx_raw_string_literals
-    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
-    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
-    Feature record: CXX_FEATURE:1cxx_return_type_deduction
-    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
-    Feature record: CXX_FEATURE:1cxx_rvalue_references
-    Feature record: CXX_FEATURE:1cxx_sizeof_member
-    Feature record: CXX_FEATURE:1cxx_static_assert
-    Feature record: CXX_FEATURE:1cxx_strong_enums
-    Feature record: CXX_FEATURE:1cxx_template_template_parameters
-    Feature record: CXX_FEATURE:1cxx_thread_local
-    Feature record: CXX_FEATURE:1cxx_trailing_return_types
-    Feature record: CXX_FEATURE:1cxx_unicode_literals
-    Feature record: CXX_FEATURE:1cxx_uniform_initialization
-    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
-    Feature record: CXX_FEATURE:1cxx_user_literals
-    Feature record: CXX_FEATURE:1cxx_variable_templates
-    Feature record: CXX_FEATURE:1cxx_variadic_macros
-    Feature record: CXX_FEATURE:1cxx_variadic_templates
-
-
-Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/gmake" "cmTC_b32ba/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_b32ba.dir/build.make CMakeFiles/cmTC_b32ba.dir/build
-gmake[1]: Entering directory '/home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b32ba.dir/feature_tests.cxx.o
-/usr/bin/c++    -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -std=c++14 -o CMakeFiles/cmTC_b32ba.dir/feature_tests.cxx.o -c /home/daniel/CLionProjects/opencvFilters/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_b32ba
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b32ba.dir/link.txt --verbose=1
-/usr/bin/c++  -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_b32ba.dir/feature_tests.cxx.o  -o cmTC_b32ba 
-gmake[1]: Leaving directory '/home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_c44df/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_c44df.dir/build.make CMakeFiles/cmTC_c44df.dir/build
+gmake[1]: Entering directory '/home/daniel/Documents/opencvFilters/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c44df.dir/feature_tests.cxx.o
+/usr/bin/c++    -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -std=c++14 -o CMakeFiles/cmTC_c44df.dir/feature_tests.cxx.o -c /home/daniel/Documents/opencvFilters/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_c44df
+/home/daniel/clion-2017.2.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c44df.dir/link.txt --verbose=1
+/usr/bin/c++  -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_c44df.dir/feature_tests.cxx.o  -o cmTC_c44df 
+gmake[1]: Leaving directory '/home/daniel/Documents/opencvFilters/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -931,17 +466,17 @@ gmake[1]: Leaving directory '/home/daniel/CLionProjects/opencvFilters/CMakeFiles
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp
+Change Dir: /home/daniel/Documents/opencvFilters/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_41e94/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_41e94.dir/build.make CMakeFiles/cmTC_41e94.dir/build
-gmake[1]: Entering directory '/home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_41e94.dir/feature_tests.cxx.o
-/usr/bin/c++    -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -std=c++11 -o CMakeFiles/cmTC_41e94.dir/feature_tests.cxx.o -c /home/daniel/CLionProjects/opencvFilters/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_41e94
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41e94.dir/link.txt --verbose=1
-/usr/bin/c++  -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_41e94.dir/feature_tests.cxx.o  -o cmTC_41e94 
-gmake[1]: Leaving directory '/home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_11903/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_11903.dir/build.make CMakeFiles/cmTC_11903.dir/build
+gmake[1]: Entering directory '/home/daniel/Documents/opencvFilters/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_11903.dir/feature_tests.cxx.o
+/usr/bin/c++    -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -std=c++11 -o CMakeFiles/cmTC_11903.dir/feature_tests.cxx.o -c /home/daniel/Documents/opencvFilters/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_11903
+/home/daniel/clion-2017.2.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11903.dir/link.txt --verbose=1
+/usr/bin/c++  -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_11903.dir/feature_tests.cxx.o  -o cmTC_11903 
+gmake[1]: Leaving directory '/home/daniel/Documents/opencvFilters/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -1004,17 +539,17 @@ gmake[1]: Leaving directory '/home/daniel/CLionProjects/opencvFilters/CMakeFiles
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp
+Change Dir: /home/daniel/Documents/opencvFilters/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_30ade/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_30ade.dir/build.make CMakeFiles/cmTC_30ade.dir/build
-gmake[1]: Entering directory '/home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_30ade.dir/feature_tests.cxx.o
-/usr/bin/c++    -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -std=c++98 -o CMakeFiles/cmTC_30ade.dir/feature_tests.cxx.o -c /home/daniel/CLionProjects/opencvFilters/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_30ade
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30ade.dir/link.txt --verbose=1
-/usr/bin/c++  -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_30ade.dir/feature_tests.cxx.o  -o cmTC_30ade 
-gmake[1]: Leaving directory '/home/daniel/CLionProjects/opencvFilters/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_e2aaf/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_e2aaf.dir/build.make CMakeFiles/cmTC_e2aaf.dir/build
+gmake[1]: Entering directory '/home/daniel/Documents/opencvFilters/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e2aaf.dir/feature_tests.cxx.o
+/usr/bin/c++    -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -std=c++98 -o CMakeFiles/cmTC_e2aaf.dir/feature_tests.cxx.o -c /home/daniel/Documents/opencvFilters/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_e2aaf
+/home/daniel/clion-2017.2.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2aaf.dir/link.txt --verbose=1
+/usr/bin/c++  -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_e2aaf.dir/feature_tests.cxx.o  -o cmTC_e2aaf 
+gmake[1]: Leaving directory '/home/daniel/Documents/opencvFilters/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

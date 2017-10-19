@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/daniel/CLionProjects/opencvFilters
+CMAKE_SOURCE_DIR = /home/daniel/Documents/opencvFilters
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/daniel/CLionProjects/opencvFilters
+CMAKE_BINARY_DIR = /home/daniel/Documents/opencvFilters
 
 #=============================================================================
 # Target rules for target CMakeFiles/opencvFilters.dir
@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/daniel/CLionProjects/opencvFilters
 CMakeFiles/opencvFilters.dir/all:
 	$(MAKE) -f CMakeFiles/opencvFilters.dir/build.make CMakeFiles/opencvFilters.dir/depend
 	$(MAKE) -f CMakeFiles/opencvFilters.dir/build.make CMakeFiles/opencvFilters.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/daniel/CLionProjects/opencvFilters/CMakeFiles --progress-num=1,2 "Built target opencvFilters"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/daniel/Documents/opencvFilters/CMakeFiles --progress-num=1,2 "Built target opencvFilters"
 .PHONY : CMakeFiles/opencvFilters.dir/all
 
 # Include target in all.
@@ -76,9 +76,9 @@ all: CMakeFiles/opencvFilters.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/opencvFilters.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/CLionProjects/opencvFilters/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/Documents/opencvFilters/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/opencvFilters.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/CLionProjects/opencvFilters/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/Documents/opencvFilters/CMakeFiles 0
 .PHONY : CMakeFiles/opencvFilters.dir/rule
 
 # Convenience name for target.

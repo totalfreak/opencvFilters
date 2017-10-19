@@ -1,0 +1,3 @@
+/home/daniel/CLionProjects/opencvFilters/CMakeFiles/rebuild_cache.dir
+/home/daniel/CLionProjects/opencvFilters/CMakeFiles/edit_cache.dir
+/home/daniel/CLionProjects/opencvFilters/CMakeFiles/opencvFilters.dir

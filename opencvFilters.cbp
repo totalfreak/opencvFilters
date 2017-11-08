@@ -97,7 +97,7 @@
 		<Unit filename="/home/daniel/Documents/opencvFilters/../../../../usr/share/OpenCV/OpenCVModules.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\share\OpenCV\"/>
 		</Unit>
-		<Unit filename="/home/daniel/Documents/opencvFilters/../../../../usr/share/OpenCV/OpenCVModules-relwithdebinfo.cmake">
+		<Unit filename="/home/daniel/Documents/opencvFilters/../../../../usr/share/OpenCV/OpenCVModules-release.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\share\OpenCV\"/>
 		</Unit>
 	</Project>

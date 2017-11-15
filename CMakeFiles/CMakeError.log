@@ -1,0 +1,24 @@
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/daniel/Documents/opencvFilters/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_d8ddc/fast"
+
+Generator: execution of make failed. Make command was: "/usr/bin/gmake" "cmTC_d8ddc/fast"
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/daniel/Documents/opencvFilters/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_4b09d/fast"
+
+Generator: execution of make failed. Make command was: "/usr/bin/gmake" "cmTC_4b09d/fast"
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/daniel/Documents/opencvFilters/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_0046e/fast"
+
+Generator: execution of make failed. Make command was: "/usr/bin/gmake" "cmTC_0046e/fast"
+
+

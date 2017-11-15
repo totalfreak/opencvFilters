@@ -27,16 +27,6 @@
 					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/daniel/Documents/opencvFilters/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/home/daniel/Documents/opencvFilters"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/home/daniel/Documents/opencvFilters/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/daniel/Documents/opencvFilters/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/daniel/Documents/opencvFilters/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/daniel/Documents/opencvFilters/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="opencvFilters">
 				<Option output="/home/daniel/Documents/opencvFilters/opencvFilters" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/daniel/Documents/opencvFilters"/>
@@ -76,6 +66,16 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/gmake -j8 -f &quot;/home/daniel/Documents/opencvFilters/Makefile&quot;  VERBOSE=1 opencvFilters/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/daniel/Documents/opencvFilters/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/daniel/Documents/opencvFilters/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/daniel/Documents/opencvFilters/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/daniel/Documents/opencvFilters"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/daniel/Documents/opencvFilters/Makefile&quot;  VERBOSE=1 edit_cache"/>
 					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/daniel/Documents/opencvFilters/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/daniel/Documents/opencvFilters/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/daniel/Documents/opencvFilters/Makefile&quot;  VERBOSE=1 clean"/>

@@ -9,6 +9,8 @@
 /home/daniel/Documents/opencvFilters/main.cpp
 iostream
 -
+math.h
+-
 opencv2/opencv.hpp
 -
 

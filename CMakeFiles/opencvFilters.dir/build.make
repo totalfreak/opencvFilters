@@ -34,10 +34,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /home/daniel/clion-2017.2.3/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E remove -f
+RM = /home/daniel/clion-2017.2.3/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -90,22 +90,47 @@ opencvFilters_EXTERNAL_OBJECTS =
 
 opencvFilters: CMakeFiles/opencvFilters.dir/main.cpp.o
 opencvFilters: CMakeFiles/opencvFilters.dir/build.make
-opencvFilters: /usr/lib64/libopencv_videostab.so.3.1.0
-opencvFilters: /usr/lib64/libopencv_superres.so.3.1.0
-opencvFilters: /usr/lib64/libopencv_stitching.so.3.1.0
-opencvFilters: /usr/lib64/libopencv_shape.so.3.1.0
-opencvFilters: /usr/lib64/libopencv_photo.so.3.1.0
-opencvFilters: /usr/lib64/libopencv_objdetect.so.3.1.0
-opencvFilters: /usr/lib64/libopencv_calib3d.so.3.1.0
-opencvFilters: /usr/lib64/libopencv_features2d.so.3.1.0
-opencvFilters: /usr/lib64/libopencv_ml.so.3.1.0
-opencvFilters: /usr/lib64/libopencv_highgui.so.3.1.0
-opencvFilters: /usr/lib64/libopencv_videoio.so.3.1.0
-opencvFilters: /usr/lib64/libopencv_imgcodecs.so.3.1.0
-opencvFilters: /usr/lib64/libopencv_flann.so.3.1.0
-opencvFilters: /usr/lib64/libopencv_video.so.3.1.0
-opencvFilters: /usr/lib64/libopencv_imgproc.so.3.1.0
-opencvFilters: /usr/lib64/libopencv_core.so.3.1.0
+opencvFilters: /usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.3.1.0
+opencvFilters: /usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.3.1.0
+opencvFilters: /usr/lib/x86_64-linux-gnu/libopencv_tracking.so.3.1.0
+opencvFilters: /usr/lib/x86_64-linux-gnu/libopencv_surface_matching.so.3.1.0
+opencvFilters: /usr/lib/x86_64-linux-gnu/libopencv_structured_light.so.3.1.0
+opencvFilters: /usr/lib/x86_64-linux-gnu/libopencv_stereo.so.3.1.0
+opencvFilters: /usr/lib/x86_64-linux-gnu/libopencv_saliency.so.3.1.0
+opencvFilters: /usr/lib/x86_64-linux-gnu/libopencv_rgbd.so.3.1.0
+opencvFilters: /usr/lib/x86_64-linux-gnu/libopencv_reg.so.3.1.0
+opencvFilters: /usr/lib/x86_64-linux-gnu/libopencv_plot.so.3.1.0
+opencvFilters: /usr/lib/x86_64-linux-gnu/libopencv_optflow.so.3.1.0
+opencvFilters: /usr/lib/x86_64-linux-gnu/libopencv_line_descriptor.so.3.1.0
+opencvFilters: /usr/lib/x86_64-linux-gnu/libopencv_hdf.so.3.1.0
+opencvFilters: /usr/lib/x86_64-linux-gnu/libopencv_fuzzy.so.3.1.0
+opencvFilters: /usr/lib/x86_64-linux-gnu/libopencv_dpm.so.3.1.0
+opencvFilters: /usr/lib/x86_64-linux-gnu/libopencv_dnn.so.3.1.0
+opencvFilters: /usr/lib/x86_64-linux-gnu/libopencv_datasets.so.3.1.0
+opencvFilters: /usr/lib/x86_64-linux-gnu/libopencv_ccalib.so.3.1.0
+opencvFilters: /usr/lib/x86_64-linux-gnu/libopencv_bioinspired.so.3.1.0
+opencvFilters: /usr/lib/x86_64-linux-gnu/libopencv_bgsegm.so.3.1.0
+opencvFilters: /usr/lib/x86_64-linux-gnu/libopencv_aruco.so.3.1.0
+opencvFilters: /usr/lib/x86_64-linux-gnu/libopencv_viz.so.3.1.0
+opencvFilters: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.3.1.0
+opencvFilters: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.3.1.0
+opencvFilters: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.3.1.0
+opencvFilters: /usr/lib/x86_64-linux-gnu/libopencv_shape.so.3.1.0
+opencvFilters: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.3.1.0
+opencvFilters: /usr/lib/x86_64-linux-gnu/libopencv_text.so.3.1.0
+opencvFilters: /usr/lib/x86_64-linux-gnu/libopencv_face.so.3.1.0
+opencvFilters: /usr/lib/x86_64-linux-gnu/libopencv_ximgproc.so.3.1.0
+opencvFilters: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.3.1.0
+opencvFilters: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.3.1.0
+opencvFilters: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.3.1.0
+opencvFilters: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.3.1.0
+opencvFilters: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.3.1.0
+opencvFilters: /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.3.1.0
+opencvFilters: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.3.1.0
+opencvFilters: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.3.1.0
+opencvFilters: /usr/lib/x86_64-linux-gnu/libopencv_video.so.3.1.0
+opencvFilters: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.3.1.0
+opencvFilters: /usr/lib/x86_64-linux-gnu/libopencv_core.so.3.1.0
 opencvFilters: CMakeFiles/opencvFilters.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/daniel/Documents/opencvFilters/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable opencvFilters"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/opencvFilters.dir/link.txt --verbose=$(VERBOSE)

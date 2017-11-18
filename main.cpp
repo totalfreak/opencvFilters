@@ -35,13 +35,14 @@ void doImageProcessing() {
     int radius = 1;
 
     Mat src = imgGray.clone();
-
+    imshow("Original gray scale image", src);
     //Saving the current "initial" image
     Mat gradX = imgGray.clone();
     Mat gradY = imgGray.clone();
     Mat gradF = imgGray.clone();
 
     //Looping over the the image with the x kernel
+    //From this we get the gradient image
     for (int r = radius; r < src.rows - radius; ++r) {
         for (int c = radius; c < src.cols - radius; ++c) {
             int s = 0;
@@ -50,16 +51,18 @@ void doImageProcessing() {
                     s += src.at<uchar>(r + i, c + j) * kernelX[i + radius][j + radius];
                 }
             }
-            gradX.at<uchar>(r - radius, c - radius) = static_cast<uchar>(s / 30);
+            //Honestly don't know why this works, but it does
+            gradX.at<uchar>(r - radius, c - radius) = s / 30;
         }
     }
 
-    //Taking the absolute values from the image and scaling the whole new image with it
+    //Converting the image to the absolute values
+    //Takes the image back to 8 bit, very important.
     Mat absGradX;
     convertScaleAbs(gradX, absGradX);
     imshow("X edge detection", absGradX);
-
     //Looping over the image with the y kernel
+    //From this we get the gradient image
     for (int r = radius; r < src.rows - radius; ++r) {
         for (int c = radius; c < src.cols - radius; ++c) {
             int s = 0;
@@ -69,22 +72,25 @@ void doImageProcessing() {
                     s += src.at<uchar>(r + i, c + j)* kernelY[i + radius][j + radius];
                 }
             }
-            gradY.at<uchar>(r - radius, c - radius) = static_cast<uchar>(s / 30);
+            //Honestly don't know why this works, but it does
+            gradY.at<uchar>(r - radius, c - radius) = s / 30;
         }
     }
 
-    //Taking the absolute values from the image and scaling the whole new image with it
+    //Converting the image to the absolute values
+    //Takes the image back to 8 bit, very important.
     Mat absGradY;
     convertScaleAbs(gradY, absGradY);
     imshow("Y edge detection", absGradY);
 
-    //Loop that adds the two arrays together
-    //This means that the "edges will have been found on both the x and the y"
+
+    //Here we calculate an approximation of the gradient at every point, using both the x and y images
     for (int i = 0; i < gradF.rows; i++) {
         for (int j = 0; j < gradF.cols; j++) {
-            //Have to cast to uchar, because normals ints don't work
-            gradF.at<uchar>(i, j) = static_cast<uchar>(sqrt(pow(gradX.at<uchar>(i, j), 2) + pow(gradY.at<uchar>(i, j), 2)));
 
+            gradF.at<uchar>(i, j) = static_cast<uchar>(sqrt(pow(gradX.at<uchar>(i, j), 2) + pow(gradY.at<uchar>(i, j), 2)));
+            //If the magnitude of the resulting pixel is higher than 240, max it
+            //Else zero it, thus making the image binary, and kewl
             if (gradF.at<uchar>(i, j) > 240) {
                 gradF.at<uchar>(i, j) = 255;
             } else {
@@ -95,16 +101,6 @@ void doImageProcessing() {
 
     imshow("Edges", gradF);
 
-    /*
-
-    //Canny(edges, edges, 0, 60, 3);
-    Sobel(edges, edges, 1, -1, -1);
-
-    imshow("Edges", edges);
-
-    //namedWindow("Lenna", WINDOW_AUTOSIZE);
-    //imshow("Lenna", img);
-    */
     waitKey(0);
 }
 

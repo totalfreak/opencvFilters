@@ -1,22 +1,20 @@
 #include <iostream>
-#include <math.h>
+#include <cmath>
 #include <opencv2/opencv.hpp>
 
 using namespace cv;
 
-int main() {
+Mat img, imgGray;
 
-
-    Mat img, imgGray;
-    img = imread("/home/daniel/Documents/opencvFilters/stars.jpeg", CV_LOAD_IMAGE_UNCHANGED);
-
-    if (img.empty()) return -1;
-
-    //Just blurring a little to remove some of the stars and noise
-    GaussianBlur(img, img, Size(5, 5), 1.5, 1.5);
+void doImageProcessing() {
 
     //The image is really high resolution for a making many windows, so I use the opencv function resize, to make it more manageable
     resize(img, img, Size(640, 480));
+
+    imshow("original image", img);
+
+    //Just blurring a little to remove some of the stars and noise
+    GaussianBlur(img, img, Size(5, 5), 1.5, 1.5);
 
     //Converting image to grayscale
     cvtColor(img, imgGray, CV_BGR2GRAY);
@@ -108,7 +106,14 @@ int main() {
     //imshow("Lenna", img);
     */
     waitKey(0);
+}
 
+int main() {
 
+    img = imread("/home/daniel/Documents/opencvFilters/stars.jpeg", CV_LOAD_IMAGE_UNCHANGED);
+
+    if (img.empty()) return -1;
+
+    doImageProcessing();
     return 0;
 }

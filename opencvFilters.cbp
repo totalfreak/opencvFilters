@@ -11,30 +11,30 @@
 				<Option working_dir="/home/daniel/Documents/opencvFilters"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/home/daniel/Documents/opencvFilters/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/daniel/Documents/opencvFilters/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/daniel/Documents/opencvFilters/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/daniel/Documents/opencvFilters/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -f &quot;/home/daniel/Documents/opencvFilters/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/daniel/Documents/opencvFilters/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/daniel/Documents/opencvFilters/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/daniel/Documents/opencvFilters/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="/home/daniel/Documents/opencvFilters"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/home/daniel/Documents/opencvFilters/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/daniel/Documents/opencvFilters/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/daniel/Documents/opencvFilters/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/daniel/Documents/opencvFilters/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -f &quot;/home/daniel/Documents/opencvFilters/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/daniel/Documents/opencvFilters/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/daniel/Documents/opencvFilters/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/daniel/Documents/opencvFilters/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="/home/daniel/Documents/opencvFilters"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/home/daniel/Documents/opencvFilters/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/daniel/Documents/opencvFilters/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/daniel/Documents/opencvFilters/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/daniel/Documents/opencvFilters/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -f &quot;/home/daniel/Documents/opencvFilters/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/daniel/Documents/opencvFilters/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/daniel/Documents/opencvFilters/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/daniel/Documents/opencvFilters/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="opencvFilters">
@@ -45,18 +45,12 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/include/opencv"/>
-					<Add directory="/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../include/c++/6.4.0"/>
-					<Add directory="/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../include/c++/6.4.0/x86_64-solus-linux"/>
-					<Add directory="/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../include/c++/6.4.0/backward"/>
-					<Add directory="/usr/lib64/gcc/x86_64-solus-linux/6.4.0/include"/>
-					<Add directory="/usr/lib64/gcc/x86_64-solus-linux/6.4.0/include-fixed"/>
-					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/home/daniel/Documents/opencvFilters/Makefile&quot;  VERBOSE=1 opencvFilters"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/daniel/Documents/opencvFilters/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/daniel/Documents/opencvFilters/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/daniel/Documents/opencvFilters/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -f &quot;/home/daniel/Documents/opencvFilters/Makefile&quot;  VERBOSE=1 opencvFilters"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/daniel/Documents/opencvFilters/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/daniel/Documents/opencvFilters/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/daniel/Documents/opencvFilters/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="opencvFilters/fast">
@@ -67,18 +61,12 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/include/opencv"/>
-					<Add directory="/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../include/c++/6.4.0"/>
-					<Add directory="/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../include/c++/6.4.0/x86_64-solus-linux"/>
-					<Add directory="/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../include/c++/6.4.0/backward"/>
-					<Add directory="/usr/lib64/gcc/x86_64-solus-linux/6.4.0/include"/>
-					<Add directory="/usr/lib64/gcc/x86_64-solus-linux/6.4.0/include-fixed"/>
-					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/home/daniel/Documents/opencvFilters/Makefile&quot;  VERBOSE=1 opencvFilters/fast"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/daniel/Documents/opencvFilters/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/daniel/Documents/opencvFilters/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/daniel/Documents/opencvFilters/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -f &quot;/home/daniel/Documents/opencvFilters/Makefile&quot;  VERBOSE=1 opencvFilters/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/daniel/Documents/opencvFilters/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/daniel/Documents/opencvFilters/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/daniel/Documents/opencvFilters/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
@@ -97,7 +85,7 @@
 		<Unit filename="/home/daniel/Documents/opencvFilters/../../../../usr/share/OpenCV/OpenCVModules.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\share\OpenCV\"/>
 		</Unit>
-		<Unit filename="/home/daniel/Documents/opencvFilters/../../../../usr/share/OpenCV/OpenCVModules-relwithdebinfo.cmake">
+		<Unit filename="/home/daniel/Documents/opencvFilters/../../../../usr/share/OpenCV/OpenCVModules-release.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\share\OpenCV\"/>
 		</Unit>
 	</Project>

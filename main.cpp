@@ -41,7 +41,7 @@ void doImageProcessing() {
                     scale += src.at<uchar>(row + i, col + j) * kernelX[i + radius][j + radius];
                 }
             }
-            gradX.at<uchar>(row - radius, col - radius) = scale / 480;
+            gradX.at<uchar>(row - radius, col - radius) = scale / 240;
         }
     }
     imshow("X edge detection", gradX);
@@ -57,7 +57,7 @@ void doImageProcessing() {
                     scale += src.at<uchar>(row + i, col + j)* kernelY[i + radius][j + radius];
                 }
             }
-            gradY.at<uchar>(row - radius, col - radius) = scale / 480;
+            gradY.at<uchar>(row - radius, col - radius) = scale / 240;
         }
     }
 
@@ -84,7 +84,7 @@ void doImageProcessing() {
 
 int main() {
 
-    src= imread("/home/daniel/Documents/opencvFilters/horizont.jpg", CV_LOAD_IMAGE_GRAYSCALE);
+    src= imread("/home/daniel/Documents/opencvFilters/stars.jpeg", CV_LOAD_IMAGE_GRAYSCALE);
 
     if (src.empty()) return -1;
 
